@@ -208,6 +208,7 @@ hr {
 .post:hover h3 {
     color: var(--foreground-alternative);
     transition: color 300ms;
+    text-decoration: underline;
 }
 
 .post:hover {
@@ -216,7 +217,7 @@ hr {
 
 .post .abstract,
 .post .thumbnail {
-    place-self: center;
+    /* place-self: center; */
 }
 
 .post {
@@ -233,6 +234,33 @@ hr {
 
     /* grid-template-areas: "thumbnail abstract"; */
 }
+
+
+
+.archive {
+    text-decoration: none;
+    color: var(--foreground);
+    margin-bottom: 2em;
+}
+
+.archive h3 {
+    transition: color 150ms;
+}
+
+.archive:hover h3 {
+    color: var(--foreground-alternative);
+    transition: color 300ms;
+    text-decoration: underline;
+}
+
+.archive:hover {
+    text-decoration: none;
+}
+
+.archive {
+}
+
+
 /* .thumbnail { grid-area: thumbnail; }
   .abstract { grid-area: abstract; } */
 
