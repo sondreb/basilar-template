@@ -11,7 +11,7 @@ Basilar is basic, but it's elegant and simple.
 Here is how you use it:
 
 ```sh
-git clone https://github.com/sondreb/Basilar.git
+git clone https://github.com/sondreb/basilar-template.git
 cd Basilar
 npm install
 npm run build
